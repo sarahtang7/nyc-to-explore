@@ -1,0 +1,156 @@
+.header, .site-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+    background-color: #1F2937;
+    padding-top: 20px;
+}
+
+.site-info {
+    margin: 40px 200px;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.site-title, .sample-places {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#nyc {
+    width: 500px;
+    height: auto;
+}
+
+.phrase {
+    font-weight: bold;
+    font-size: 48px;
+    font-family: sans-serif;
+    line-height: 95%;
+    margin-bottom: 10px;
+}
+
+.small-phrase {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(254, 216, 222);
+    color:#1F2937;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#bottom-button {
+    background-color: #1F2937;
+    color: white;
+}
+
+.tier1 {
+    background-color: #1F2937;
+    color: white;
+    height: 500px;
+    width: 100%;
+    margin: 0%;
+}
+
+.tier2 {
+    background-color: white;
+    height: 325px;
+}
+
+.tier3 {
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier4 {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier5 {
+    background-color: #1F2937;
+    height: 80px;
+}
+
+.call-to-action {
+    background-color: rgb(254, 216, 222);
+    height: 120px;
+    width: 750px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.texts {
+    font-family: sans-serif;
+    color:#1F2937;
+}
+
+.text1 {
+    font-weight: bold;
+}
+
+.text2 {
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.sample-places {
+    font-size: 20px;
+    color:#1F2937;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.sample-loc {
+    align-items: center;
+    max-width: 150px;
+}
+
+.img-loc {
+    width: 150px;
+    height: 150px;
+}
+
+.loc-text {
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: sans-serif;
+    color:#1F2937;
+    text-align: center;
+}
